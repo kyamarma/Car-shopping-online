@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    margin: 0;
+    width: auto;
+    height: auto;
+}
+.car-1{
+    width: 30%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+/*
+.car-1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(20, 20, 20, 0.466);
+    z-index: -1;
+}
+
+.car-1:hover{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:  url(../images/9\ hover.jpg) ;
+}
+*/
+.header{
+    width: 1000px;
+    margin: 20px;
+    display: flex;
+}
+
+.car-1{
+    width: 40%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    margin: 20px;
+    z-index: 1;
+}
+.car-1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(20, 20, 20, 0.466);
+    z-index: -1;
+}
+.car-1:hover{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:  url(../images/9\ hover.jpg) ;
+}
+.car-1 a{
+    text-decoration: none;
+    color: #000;
+}
+.car-1 h4{
+    font-size: 30px;
+    font-weight: 600;
+    color: yellowgreen;
+    padding-left: 80px;
+}
+.car-1 p{
+    margin-left: 120px;
+    font-size: 20px;
+    color: #fff;
+}
+.car-img-1{
+    height: 200px;
+    width: 400px;
+    background-image: url(../images/9.webp);
+    background-size: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+}

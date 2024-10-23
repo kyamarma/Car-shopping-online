@@ -1,0 +1,860 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+   
+}
+ul{
+    margin: auto;
+    padding: 0;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.header-top {
+    background-color: #393031;
+    color: #85b828;
+}
+
+.ber{
+    height: 90px;
+    display: flex;
+}
+.logo{
+    height: 70px;
+    width: 70px;
+    background-image: url(../images/kcs\ logo.jpg);
+    background-position: center ;
+    background-size: 70px;
+    margin-top: 10px;
+}
+
+/*dropdown*/
+.dropdown {
+    padding: 30px;
+    font-size: 20px;
+}
+.dropdown a{
+    color: #fff;
+}
+.dropdown-menu{
+    background-color: #ddd6d6;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+.ber-img-1{
+    height: 300px;
+    width: 400px;
+    background-image: url(../images/OUTLANDER\ PLUG-IN\ HYBRID\ SUV.jpg);
+    background-size: 350px;
+    background-position: center;
+    padding: 20px 20px 0 20px;
+    background-repeat: no-repeat;
+}
+.dropdown-menu ul{
+    display: flex;
+}
+.dropdown-menu a{
+    color: black;
+    
+    text-decoration: none;
+}
+.dropdown-menu h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #5a5c05;
+    padding: 0 0 0 20px;
+}
+.dropdown-menu p{
+    padding: 0 0 0 20px;
+    color: #474646;
+}
+.ber-img-2{
+    height: 300px;
+    width: 400px;
+    background-image: url(../images/2024\ outlander.jpg);
+    background-size: 350px;
+    background-position: center;
+    padding: 20px 20px 0 20px;
+    background-repeat: no-repeat;
+}
+.ber-img-3{
+    height: 300px;
+    width: 400px;
+    background-image: url(../images/2024outlander-sport.jpg);
+    background-size: 350px;
+    background-position: center;
+    padding: 20px 20px 0 20px;
+    background-repeat: no-repeat;
+}
+.ber-img-4{
+    height: 290px;
+    width: 400px;
+    background-image: url(../images/2024-eclipse-cross.png);
+    background-size: 300px;
+    background-position: center;
+    padding: 20px 20px 0 20px;
+    background-repeat: no-repeat;
+}
+.ber-img-5{
+    height: 300px;
+    width: 400px;
+    background-image: url(../images/2024\ migrate.webp);
+    background-size: 350px;
+    background-position: center;
+    padding: 20px 20px 0 20px;
+    background-repeat: no-repeat;
+}
+.ber-img-6{
+    height: 300px;
+    width: 400px;
+    background-image: url(../images/2024MirageG4.png);
+    background-size: 350px;
+    background-position: center;
+    padding: 20px 20px 0 20px;
+    background-repeat: no-repeat;
+}
+
+/*navber*/
+.nav{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+/*menu*/
+.menu{
+    margin: 0;
+    padding: 0;
+    width: 1000px;
+    color: #85b828;
+
+}
+.flex{
+    margin: 150px;
+    padding: 0;
+    display: block !important;
+    color: #85b828;
+}
+.flex ul{
+    text-decoration: none;
+}
+.flex li{
+    width: 500px;
+    font-size: 25px;
+    list-style: none;
+}
+
+.flex a{
+    color: #666464;
+}
+.flex a:hover {
+    color: rgb(19, 18, 18);
+  }
+.img{
+    height: 500px;
+    width: 180vh;
+    background-image: url(../images/shopping-tools.webp);
+    background-size: 650px;
+    background-position: center;
+    padding: 20px 20px 0 20px;
+    background-repeat: no-repeat;
+}
+
+
+.menu-option{
+    margin-top: 200px;
+    display: block !important;
+}
+.menu-option a{
+    color: #666464;
+}
+.flex a:hover {
+    color: rgb(19, 18, 18);
+  }
+.img-2{
+    height: 500px;
+    width: 60vh;
+    background-image: url(../images/WHAT\ DRIVES\ US.png);
+    background-size: 550px;
+    background-position: center;
+    padding: 20px 20px 0 20px;
+    background-repeat: no-repeat;
+}
+.menu-option-1{
+    margin-top: 150px;
+    display: block !important;
+}
+.img-3{
+    height: 500px;
+    width: 60vh;
+    background-image: url(../images/build-and-price.webp);
+    background-size: 550px;
+    background-position: center;
+    padding: 20px 20px 0 20px;
+    background-repeat: no-repeat;
+}
+.menu-option-2{
+    margin-top: 250px;
+    display: block !important;
+}
+
+
+/*navber*/
+.nav{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+/*menu*/
+.menu{
+    margin: 0;
+    padding: 0;
+    width: 1000px;
+    color: #85b828;
+
+}
+.flex{
+    margin: 150px;
+    padding: 0;
+    display: block !important;
+    color: #85b828;
+}
+.flex ul{
+    text-decoration: none;
+}
+.flex li{
+    width: 500px;
+    font-size: 25px;
+    list-style: none;
+}
+
+.flex a{
+    color: #666464;
+}
+.flex a:hover {
+    color: rgb(19, 18, 18);
+  }
+.img{
+    height: 500px;
+    width: 80vh;
+    background-image: url(../images/shopping-tools.webp);
+    background-size: 650px;
+    background-position: center;
+    padding: 20px 20px 0 20px;
+    background-repeat: no-repeat;
+}
+
+
+.menu-option{
+    margin-top: 200px;
+    display: block !important;
+}
+.menu-option a{
+    color: #666464;
+}
+.flex a:hover {
+    color: rgb(19, 18, 18);
+  }
+.img-2{
+    height: 500px;
+    width: 60vh;
+    background-image: url(../images/WHAT\ DRIVES\ US.png);
+    background-size: 450px;
+    background-position: center;
+    padding: 20px 20px 0 20px;
+    background-repeat: no-repeat;
+}
+.menu-option-1{
+    margin-top: 150px;
+    display: block !important;
+}
+.img-3{
+    height: 500px;
+    width: 60vh;
+    background-image: url(../images/build-and-price.webp);
+    background-size: 550px;
+    background-position: center;
+    padding: 20px 20px 0 20px;
+    background-repeat: no-repeat;
+}
+.menu-option-2{
+    margin-top: 250px;
+    display: block !important;
+}
+
+
+
+
+/*slideshow*/
+.slide{
+    height: auto;
+}
+.slide h5{
+    padding: 150px 0 0 0;
+}
+
+.active {
+    width: 100%;
+    background-image: url(../images/0.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.active::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+.active h3{
+    margin-top: 350px;
+    padding:  0 0 0 200px;
+    color: #fff;
+    font-size: 20px;
+}
+.active p{
+    width: 600px;
+    padding:  0 0 0 100px;
+    color: #fff;
+    font-size: 40px;
+    margin: 20px 20px 20px 100px;
+    font-weight: 700;
+}
+.event-p{
+    font-size: 20px !important;
+    font-weight: normal !important;
+}
+.btn{
+    background-color: tomato;
+    color: #000;
+    bottom: 100px;
+}
+.btn:hover{
+    background-color: #85b828;
+}
+
+
+/*shoping*/
+
+.shopping{
+    background-color: #444040;
+}
+
+.shoping-img{
+    margin: 50px;
+    width: 600px;
+    height: 350px;
+    background-image: url(../images/shoping.jpg);
+    background-position: center;
+}
+.shop{
+    margin-top: 60px;
+    padding: 50px 0px 50px 110px;
+    color: yellowgreen;
+}
+.shop h2{
+    font-size: 50px;
+    font-weight: 600;
+}
+.shop p{
+    color: #fff;
+    font-size: 20px;
+    font-style: italic;
+}
+.shop button{
+    color: #000;
+    background-color: tomato;
+    border-radius:25px;
+    bottom: 100px;
+    font-size: 20px;
+    padding: 10px;
+}
+.shop button:hover{
+    background-color: #fff;
+}
+.shop button a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
+
+/*toplist car*/
+.header{
+    width: 1100px;
+    margin: 20px;
+    display: flex;
+    margin: 0;
+    padding: 20px;
+}
+
+.car-1{
+    width: 40%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    margin: 20px;
+    z-index: 1;
+}
+.car-1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(20, 20, 20, 0.466);
+    z-index: -1;
+}
+.car-1:hover{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:  url(../images/9\ hover.jpg) ;
+}
+.car-1 a{
+    text-decoration: none;
+    color: #000;
+}
+.car-1 h4{
+    font-size: 30px;
+    font-weight: 600;
+    color: yellowgreen;
+    padding-left: 80px;
+}
+.car-1 p{
+    margin-left: 120px;
+    font-size: 20px;
+    color: #fff;
+}
+.car-img-1{
+    height: 200px;
+    width: 400px;
+    background-image: url(../images/9.webp);
+    background-size: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*car-2*/
+.car-2{
+    width: 40%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    margin: 20px;
+    z-index: 1;
+}
+.car-2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(20, 20, 20, 0.466);
+    z-index: -1;
+}
+.car-2:hover{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:  url(../images/10\ hover.webp) ;
+}
+.car-2 a{
+    text-decoration: none;
+    color: #000;
+}
+.car-2 h4{
+    font-size: 30px;
+    font-weight: 600;
+    color: yellowgreen;
+    padding-left: 80px;
+}
+.car-2 p{
+    margin-left: 120px;
+    font-size: 20px;
+    color: #fff;
+}
+.car-img-2{
+    height: 200px;
+    width: 400px;
+    background-image: url(../images/10.webp);
+    background-size: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*car-3*/
+.car-3{
+    width: 33%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    margin: 20px;
+    z-index: 1;
+}
+.car-3::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(20, 20, 20, 0.466);
+    z-index: -1;
+}
+.car-3:hover{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:  url(../images/11\ hover.webp) ;
+}
+.car-3 a{
+    text-decoration: none;
+    color: #000;
+}
+.car-3 h4{
+    font-size: 30px;
+    font-weight: 600;
+    color: yellowgreen;
+    padding-left: 80px;
+}
+.car-3 p{
+    margin-left: 120px;
+    font-size: 20px;
+    color: #fff;
+}
+.car-img-3{
+    height: 200px;
+    width: 350px;
+    background-image: url(../images/11.webp);
+    background-size: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*car-4*/
+.car-4{
+    width: 40%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    margin: 20px;
+    z-index: 1;
+}
+.car-4::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(20, 20, 20, 0.466);
+    z-index: -1;
+}
+.car-4:hover{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:  url(../images/12\ hover.webp) ;
+}
+.car-4 a{
+    text-decoration: none;
+    color: #000;
+}
+.car-4 h4{
+    font-size: 30px;
+    font-weight: 600;
+    color: yellowgreen;
+    padding-left: 80px;
+}
+.car-4 p{
+    margin-left: 120px;
+    font-size: 20px;
+    color: #fff;
+}
+.car-img-4{
+    height: 200px;
+    width: 400px;
+    background-image: url(../images/12.webp);
+    background-size: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+/*show_buttton*/
+.show_button{
+    margin: 20px;
+    margin-left: 890px;
+}
+.show_button button{ 
+    color: #000;
+    background-color: tomato;
+    border-radius:25px;
+    bottom: 100px;
+    font-size: 20px;
+    padding: 10px;
+}
+.show_button button:hover{
+    background-color: #fff;
+}
+.show_button a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+/*footer*/
+footer{
+    margin: 0;
+    text-align: center;
+    background-color: #000;
+}
+footer a{
+    color: #fff;
+    font-size: 30px;
+    padding: 5px;
+}
+footer p{
+    color: #504e4ee2;
+    padding: 10px;
+    font-size: 25px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Shoping page*/
+
+.drop button{
+    width: 200px;
+    margin: 0;
+}
+
+
+.Toyota ul{
+    margin: 20px;
+    display: flex;
+}
+.Toyota-1{
+    height: 180px;
+    width: 350px;
+    background-image: url(../images/Toyota-1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Toyota p{
+    padding-left: 0px;
+    margin: 0;
+    text-align: center;
+}
+.Toyota button{
+    padding: 0;
+    border: none;
+    margin-left: 75px;
+}
+
+.Toyota-2{
+    height: 180px;
+    width: 350px;
+    background-image: url(../images/Toyota-2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Toyota-3{
+    height: 180px;
+    width: 350px;
+    background-image: url(../images/Toyota-3.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Toyota-4{
+    height: 180px;
+    width: 350px;
+    background-image: url(../images/Toyota-4.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Toyota-5{
+    height: 180px;
+    width: 350px;
+    background-image: url(../images/Toyota-5.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Toyota-6{
+    height: 180px;
+    width: 350px;
+    background-image: url(../images/Toyota-6.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.footer-1{
+    margin-top: 550px;
+    margin-bottom: 0;
+}
+.active-1{
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*About Us*/
+.about{
+    margin: 30px 0 20px 0;
+    padding:  0 0 0 250px;
+}
+.about h2{
+    padding-left: 35px;
+    width: 700px;
+    color: #1c1b1b;
+    background-color: #b2afaf;
+    font-weight: 600;
+}
+.about p{
+    margin: 0;
+    font-size: 25px;
+    padding-left: 45px;
+}
+
+
+
+.heritage{
+    margin: 20px 0 20px 0;
+    background-color: #000;
+}
+.heritage h4{
+    margin: 0;
+    padding: 20px 0 0 250px;
+    color: #b2afaf;
+}
+.heritage p{
+    width: 900px;
+    color: #fff;
+    padding: 20px 0 20px 250px;
+    font-size: 20px;
+}
+.heritage ul{
+    display: flex;
+}
+.heritage_img{
+    width: 500px;
+    height: 300px;
+    color: #fff;
+    margin-left: 250px;
+    background-image: url(../images/heritage_img\ 1.webp);
+    background-size: 600px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+/*.car-menu-1*/
+.car-menu-1{
+    height: auto;
+}
+.vd{
+    /*height: 850px;*/
+    position: absolute;
+    z-index: -1;
+}
+
+.vd-1 h4{
+    margin: 0 0 0 50px;
+    padding-top: 650px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+}
+.vd-1 p{
+    margin: 0 0 0 50px;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
+/*car_1 slideshow*/
+.slideshow-car-1{
+    width: 800px;
+    position: center center;
+}

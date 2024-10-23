@@ -1,0 +1,527 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+   
+}
+ul{
+    margin: auto;
+    padding: 0;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.header-top {
+    background-color: #393031;
+    color: #85b828;
+}
+
+.ber{
+    height: 90px;
+    display: flex;
+}
+.logo{
+    height: 70px;
+    width: 70px;
+    background-image: url(../images/kcs\ logo.jpg);
+    background-position: center ;
+    background-size: 70px;
+    margin-top: 10px;
+}
+
+/*dropdown*/
+.dropdown {
+    padding: 30px;
+    font-size: 20px;
+}
+.dropdown a{
+    color: #fff;
+}
+.dropdown-menu{
+    background-color: #ddd6d6;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+.ber-img-1{
+    height: 300px;
+    width: 400px;
+    background-image: url(../images/OUTLANDER\ PLUG-IN\ HYBRID\ SUV.jpg);
+    background-size: 350px;
+    background-position: center;
+    padding: 20px 20px 0 20px;
+    background-repeat: no-repeat;
+}
+.dropdown-menu ul{
+    display: flex;
+}
+.dropdown-menu a{
+    color: black;
+    
+    text-decoration: none;
+}
+.dropdown-menu h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #5a5c05;
+    padding: 0 0 0 20px;
+}
+.dropdown-menu p{
+    padding: 0 0 0 20px;
+    color: #474646;
+}
+.ber-img-2{
+    height: 300px;
+    width: 400px;
+    background-image: url(../images/2024\ outlander.jpg);
+    background-size: 350px;
+    background-position: center;
+    padding: 20px 20px 0 20px;
+    background-repeat: no-repeat;
+}
+.ber-img-3{
+    height: 300px;
+    width: 400px;
+    background-image: url(../images/2024outlander-sport.jpg);
+    background-size: 350px;
+    background-position: center;
+    padding: 20px 20px 0 20px;
+    background-repeat: no-repeat;
+}
+.ber-img-4{
+    height: 290px;
+    width: 400px;
+    background-image: url(../images/2024-eclipse-cross.png);
+    background-size: 300px;
+    background-position: center;
+    padding: 20px 20px 0 20px;
+    background-repeat: no-repeat;
+}
+.ber-img-5{
+    height: 300px;
+    width: 400px;
+    background-image: url(../images/2024\ migrate.webp);
+    background-size: 350px;
+    background-position: center;
+    padding: 20px 20px 0 20px;
+    background-repeat: no-repeat;
+}
+.ber-img-6{
+    height: 300px;
+    width: 400px;
+    background-image: url(../images/2024MirageG4.png);
+    background-size: 350px;
+    background-position: center;
+    padding: 20px 20px 0 20px;
+    background-repeat: no-repeat;
+}
+
+/*navber*/
+.nav{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+/*menu*/
+.menu{
+    margin: 0;
+    padding: 0;
+    width: 1000px;
+    color: #85b828;
+
+}
+.flex{
+    margin: 150px;
+    padding: 0;
+    display: block !important;
+    color: #85b828;
+}
+.flex ul{
+    text-decoration: none;
+}
+.flex li{
+    width: 500px;
+    font-size: 25px;
+    list-style: none;
+}
+
+.flex a{
+    color: #666464;
+}
+.flex a:hover {
+    color: rgb(19, 18, 18);
+  }
+.img{
+    height: 500px;
+    width: 60vh;
+    background-image: url(../images/shopping-tools.webp);
+    background-size: 650px;
+    background-position: center;
+    padding: 20px 20px 0 20px;
+    background-repeat: no-repeat;
+}
+
+
+.menu-option{
+    margin-top: 200px;
+    display: block !important;
+}
+.menu-option a{
+    color: #666464;
+}
+.flex a:hover {
+    color: rgb(19, 18, 18);
+  }
+.img-2{
+    height: 500px;
+    width: 60vh;
+    background-image: url(../images/WHAT\ DRIVES\ US.png);
+    background-size: 550px;
+    background-position: center;
+    padding: 20px 20px 0 20px;
+    background-repeat: no-repeat;
+}
+.menu-option-1{
+    margin-top: 150px;
+    display: block !important;
+}
+.img-3{
+    height: 500px;
+    width: 60vh;
+    background-image: url(../images/build-and-price.webp);
+    background-size: 550px;
+    background-position: center;
+    padding: 20px 20px 0 20px;
+    background-repeat: no-repeat;
+}
+.menu-option-2{
+    margin-top: 250px;
+    display: block !important;
+}
+
+
+/*navber*/
+.nav{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+/*menu*/
+.menu{
+    margin: 0;
+    padding: 0;
+    width: 1000px;
+    color: #85b828;
+
+}
+.flex{
+    margin: 150px;
+    padding: 0;
+    display: block !important;
+    color: #85b828;
+}
+.flex ul{
+    text-decoration: none;
+}
+.flex li{
+    width: 500px;
+    font-size: 25px;
+    list-style: none;
+}
+
+.flex a{
+    color: #666464;
+}
+.flex a:hover {
+    color: rgb(19, 18, 18);
+  }
+.img{
+    height: 500px;
+    width: 60vh;
+    background-image: url(../images/shopping-tools.webp);
+    background-size: 650px;
+    background-position: center;
+    padding: 20px 20px 0 20px;
+    background-repeat: no-repeat;
+}
+
+
+.menu-option{
+    margin-top: 200px;
+    display: block !important;
+}
+.menu-option a{
+    color: #666464;
+}
+.flex a:hover {
+    color: rgb(19, 18, 18);
+  }
+.img-2{
+    height: 500px;
+    width: 60vh;
+    background-image: url(../images/WHAT\ DRIVES\ US.png);
+    background-size: 550px;
+    background-position: center;
+    padding: 20px 20px 0 20px;
+    background-repeat: no-repeat;
+}
+.menu-option-1{
+    margin-top: 150px;
+    display: block !important;
+}
+.img-3{
+    height: 500px;
+    width: 60vh;
+    background-image: url(../images/build-and-price.webp);
+    background-size: 550px;
+    background-position: center;
+    padding: 20px 20px 0 20px;
+    background-repeat: no-repeat;
+}
+.menu-option-2{
+    margin-top: 250px;
+    display: block !important;
+}
+
+
+
+
+
+/*buy now*/
+.buy button{
+    margin: 20px;
+    margin-left: 850px;
+    color: #777575;
+    font-size: 20px;
+    background-color: #dad2d2;
+    border-radius: 25px;
+}
+button a{
+    color: #6e4848;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+
+
+/*.car-menu-1*/
+.car-menu-1{
+    height: auto;
+}
+.vd{
+    /*height: 850px;*/
+    position: absolute;
+    z-index: -1;
+}
+
+.vd-1 h4{
+    margin: 0 0 0 50px;
+    padding-top: 650px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+}
+.vd-1 p{
+    margin: 0 0 0 50px;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
+
+
+/*header*/
+.header{
+    width: 100%;
+    margin: 50px 0 20px 0;
+    padding: 50px;
+    background-color: #9e9c9c;
+    display: flex;
+}
+.gr h3{
+    margin-left: 30px;
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.gr button{
+    margin-left: 100px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #000;
+    border-radius: 25px;
+
+}
+.header-in{
+    display: flex;
+}
+.header-in li{
+    margin: 20px;
+}
+.header-in li p{
+    width: 420px;
+    font-size: 20px;
+}
+
+
+
+/*car_1 slideshow*/
+.slideshow-car-1{
+    margin: 40px;
+    margin-left: 25%;
+    width: 1000px;
+    position: center center;
+}
+.slideshow-car-1 h3{
+    margin: 0;
+    margin-left: 200px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.slideshow-car-1 button{
+    font-size: 20px;
+    margin-left: 450px;
+}
+.car-button button{
+    margin: 0 !important;
+}
+
+
+
+
+/*feature*/
+
+
+/*feature-2*/
+.feature{
+    background-color: antiquewhite;
+}
+.feature-1 ul {
+    display: flex;
+}
+.car-4-img{
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/car-1-1.avif);
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+.feature-1 ul{
+    margin-left: 350px;
+}
+.feature-1 ul li h3{
+    margin-top: 30px;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.feature-1 ul li p{
+    width: 700px;
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+/*footer*/
+footer{
+    margin-top: 150px;
+    text-align: center;
+    background-color: #000;
+}
+footer a{
+    color: #fff;
+    font-size: 30px;
+    padding: 5px;
+}
+footer p{
+    color: #504e4ee2;
+    padding: 10px;
+    font-size: 25px;
+    margin-bottom: 0;
+    
+}
+
+
+
+
+
+
+
+/*BUY_CAR-1.HTML*/
+.buying_page h3{
+    margin-top: 50px;
+}
+.car_img{
+    width: 600px;
+    height: 200px;
+    background-image: url(../images/Toyota-1.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 500px;
+}
+.buying_page p{
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+
+
+/*Information*/
+.information ul{
+    margin: 20px 0 20px 0;
+    background-color: #000;
+}
+.information li{
+    color: #e3ca7e;
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.inform{
+    font-size: 20px;
+    font-weight: 600;
+}
+.inform button{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+/*successfull.php*/
+.successfull h2{
+    padding-left: 550px;
+}
+.successfull_img{
+    width: 800px;
+    height: 500px;
+    margin:  0 0 0 250px;
+    padding-bottom: 100px;
+    background-image: url(../images/gif.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
